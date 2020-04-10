@@ -1,0 +1,161 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+iframe {
+	height: 755px;
+	width: 1670px;
+	
+}
+h6 {
+	font-size: 200%;
+	color: darkblue;
+}
+p {
+	font-size: 150%;
+	color: #00003b;
+}
+header {
+	font-size: 500%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	line-height: 1;
+	background-color: #FFE680;
+}
+ol {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+}
+
+.m {
+	font-size: 50%;
+	font-family: 'Comic Sans MS';
+}
+
+#navbar {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border: 2px solid rgb(130, 0, 156);
+	border-radius: 20px 5px;
+	width: 99.8%;
+	height: max-content;
+	text-align: center;
+	background-color: rgb(201, 20, 218);
+	font-size: 70%;
+}
+#navbar li { display: inline; }
+#navbar a {
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  width: 100px;
+}
+#navbar a:hover {
+  border-radius: 20px 5px;
+  background-color: rgb(124, 0, 108);
+}
+
+a.expand {
+	width: 90px;
+	display: block;
+	margin: 10px 0 0;
+}
+a.expand:hover {
+	height: 500px;
+}
+/* End of of styles for the demo */
+.wrapper {
+	width: 100%;
+	min-width: 1000px;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	border-left: 250px solid #B5E3FF;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	margin-right: -100%;
+}
+.content {
+	padding: 0 20px;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 250px;
+	position: relative;
+	background: #B5E3FF;
+	left: -250px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	height: 100px;
+	background: #BFF08E;
+	vertical-align:bottom;
+}
