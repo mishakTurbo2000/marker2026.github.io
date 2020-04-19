@@ -1,0 +1,30 @@
+button {
+    position: relative;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%, 0); 
+    width: 251px;
+    height: 91px;
+    background-image: url("images/button.gif");
+}
+/*body {
+    width: 502px;
+    height: 302px;
+    background-image: url("images/bg.png");
+}*/
+.backGround {
+    width: 502px;
+    height: 302px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("images/bg.png");
+}
+.f {
+    background-image: url("images/list1.png");
+    height: 150px;
+    font-size: 130%;
+    text-align: center;
+    padding-top: 135px;
+    /*width: 6em;*/
+    color: red;
+}
